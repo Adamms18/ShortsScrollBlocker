@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Shorts Scroll Blocker Minimalist",
+  "version": "1.0",
+  "description": "Stops you from mindlessly scrolling through YouTube Shorts.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
