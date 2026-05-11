@@ -3,6 +3,11 @@
   "name": "Shorts Scroll Blocker Minimalist",
   "version": "1.0",
   "description": "Stops you from mindlessly scrolling through YouTube Shorts.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yt-scroll-blocker@robert.com"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
